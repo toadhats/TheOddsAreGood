@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{1BC03C5E-F525-A430-7A6D-3523B3AF5506}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DialogManager.cs">
+    <Files>
+      <File FileName="Assets/DialogManager.cs" Line="22" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TheOddsAreGood" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="UI" expanded="True" />
+              <Node name="DialogManager.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="75725d7c-57f8-4b10-87b1-1b71d20f654f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

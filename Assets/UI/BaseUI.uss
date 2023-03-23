@@ -1,0 +1,37 @@
+.header {
+    font-size: 32px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    flex-grow: 1;
+}
+
+.bottomBar {
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+}
+
+.topArea {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    align-items: auto;
+    flex-direction: row;
+}
+
+.choiceButton {
+    font-size: 24px;
+    align-self: stretch;
+    align-items: auto;
+    flex-grow: 1;
+}

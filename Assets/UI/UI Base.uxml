@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/BaseUI.uss?fileID=7433441132597879392&amp;guid=81491a4a463e74f4ab7f257fdc139531&amp;type=3#BaseUI" />
+    <ui:VisualElement name="background" class="BaseUI" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: relative; height: 25%; width: 100%; top: auto; left: auto; bottom: auto; justify-content: flex-end;">
+        <ui:VisualElement name="topArea" class="topArea">
+            <ui:VisualElement name="topLeft" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; border-right-color: rgb(0, 0, 0); align-items: flex-start; align-self: flex-start; max-width: 50%; height: 100%; flex-direction: row;">
+                <ui:Label tabindex="-1" text="Player" display-tooltip-when-elided="true" name="playerLabel" class="header" />
+            </ui:VisualElement>
+            <ui:VisualElement name="topRight" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); border-left-color: rgb(0, 0, 0); align-self: flex-end; max-width: 50%; height: 100%; width: 50%; flex-direction: row-reverse;">
+                <ui:Label tabindex="-1" text="Game" display-tooltip-when-elided="true" name="gameLabel" class="header" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="BottomBar" class="bottomBar" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: auto; align-self: auto; flex-direction: row; justify-content: flex-start; width: 100%; height: 30%; flex-basis: 25%; flex-shrink: 1; max-height: 30%; bottom: 0;">
+            <ui:VisualElement name="bottomLeftWindow" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: center; align-self: center; flex-direction: column; width: 25%; height: 100%; border-right-color: rgb(0, 0, 0); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px;">
+                <ui:Label tabindex="-1" text="Dealer&#10;" display-tooltip-when-elided="true" name="bottomLeftWindowLabel" class="header" style="align-items: flex-start; justify-content: flex-start; align-self: flex-start;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="bottomDialog" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: center; align-self: center; justify-content: flex-end; width: 50%; height: 100%; flex-direction: column-reverse;">
+                <ui:VisualElement name="choiceButtonContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-self: stretch; flex-direction: row; justify-content: space-around; border-top-color: rgb(0, 0, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; align-items: stretch;">
+                    <ui:Button text="Assist" display-tooltip-when-elided="true" name="choiceButton1" class="choiceButton" />
+                    <ui:Button text="Hinder" display-tooltip-when-elided="true" name="choiceButton2" class="choiceButton" />
+                    <ui:Button text="Do Nothing" display-tooltip-when-elided="true" name="choiceButton3" class="choiceButton" />
+                </ui:VisualElement>
+                <ui:VisualElement name="dialogTextContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                    <ui:Label tabindex="-1" text="Dialog&#10;" display-tooltip-when-elided="true" name="bottomDialogLabel" class="header" style="align-items: flex-start; justify-content: flex-start; align-self: center;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="bottomRightWindow" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: flex-end; align-self: center; flex-direction: column; height: 100%; width: 25%; border-left-color: rgb(0, 0, 0); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px;">
+                <ui:Label tabindex="-1" text="Player Stats" display-tooltip-when-elided="true" name="TestLabel" class="header" style="align-items: flex-start; justify-content: flex-start; align-self: flex-end;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
